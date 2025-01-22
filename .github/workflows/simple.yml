@@ -1,0 +1,11 @@
+name: Simple Workflow
+
+on: [push]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, GitHub Actions!"
